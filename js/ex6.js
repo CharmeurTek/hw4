@@ -6,6 +6,7 @@ function numberRandom() {
 var number = prompt("Please guess the number: ");
 number = parseInt(number);
 var numberWin = numberRandom();
+var count = 0;
 
 while (number != numberWin) {
     if (number > numberWin) {
@@ -16,5 +17,6 @@ while (number != numberWin) {
         number = prompt("Too low, guess again");
         number = parseInt(number);
     }
+    count++;
 }
-alert("Correct !!!")
+alert("Correct!  It took you " + count + " attempts to guess the correct number.");
