@@ -32,7 +32,6 @@ function isPalindrome(word) {
     var wordReverse = word.split("").reverse();
     var i = 0;
     var count = 0;
-    console.log(wordReverse);
     while (i < word.length) {
         if (word[i].toLowerCase() === wordReverse[i].toLowerCase()) {
             count++;
