@@ -17,4 +17,4 @@ while (number != numberWin) {
         number = parseInt(number);
     }
 }
-alert("correctt")
+alert("Correct !!!")
