@@ -19,4 +19,5 @@ while (number != numberWin) {
     }
     count++;
 }
+count++;
 alert("Correct!  It took you " + count + " attempts to guess the correct number.");
